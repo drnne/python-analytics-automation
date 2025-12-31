@@ -25,3 +25,13 @@ python -m venv .venv
 .venv\Scripts\activate
 # Mac/Linux:
 source .venv/bin/activate
+
+### 2) Install requirements
+pip install -r requirements.txt
+
+### 3) Configure environment variables
+Copy .env.example to .env and set values as required.
+
+### 4) Run the pipeline
+python -m src.run_pipeline
+
