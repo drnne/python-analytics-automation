@@ -1,7 +1,7 @@
-pandas
-numpy
-sqlalchemy
-requests
-matplotlib
-scipy
-python-dotenv
+pandas==2.2.2
+numpy==2.0.1
+requests==2.32.3
+python-dotenv==1.0.1
+matplotlib==3.9.2
+pyodbc==5.1.0
+SQLAlchemy==2.0.36
